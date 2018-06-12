@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_medium">24dp</dimen>
+    <dimen name="text_size_small">18dp</dimen>
+
+    <dimen name="icon_margin">3dp</dimen>
+    <dimen name="image_view_size">60dp</dimen>
+
+    <dimen name="layout_margin">10dp</dimen>
+
+    <dimen name="edit_button_margin_left">30dp</dimen>
+    <dimen name="edit_button_margin">10dp</dimen>
+
+    <dimen name="card_view_item_margin">3dp</dimen>
+    <dimen name="user_picture_edit_view_height">180dp</dimen>
+</resources>

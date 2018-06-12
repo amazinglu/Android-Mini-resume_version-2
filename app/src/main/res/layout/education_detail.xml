@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/card_view_item_margin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin">
+
+        <ImageView
+            android:id="@+id/school_image"
+            android:layout_width="@dimen/image_view_size"
+            android:layout_height="@dimen/image_view_size"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:src="@drawable/user_ghost"
+            android:layout_alignParentLeft="true"/>
+
+        <LinearLayout
+            android:id="@+id/school_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/school_image"
+            android:layout_toLeftOf="@id/education_edit"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/school_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:hint="@string/school_name_hint"/>
+
+            <TextView
+                android:id="@+id/major"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_small"
+                android:hint="@string/major_name_hint" />
+
+            <TextView
+                android:id="@+id/education_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_small"
+                android:hint="@string/date_hint"/>
+
+            <TextView
+                android:id="@+id/gpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_small"
+                android:hint="@string/gpa_hint"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/education_edit"
+            android:layout_width="@dimen/text_size_medium"
+            android:layout_height="@dimen/text_size_medium"
+            android:src="@drawable/baseline_create_black_18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/edit_button_margin_left"
+            android:layout_marginTop="@dimen/edit_button_margin"
+            android:layout_marginRight="@dimen/edit_button_margin"/>
+
+        <TextView
+            android:id="@+id/education_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/school_info"
+            android:hint="somgthing  about this experience..."/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

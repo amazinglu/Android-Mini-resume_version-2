@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_margin">
+
+    <TextView
+        android:id="@+id/haeder_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/education_title"
+        android:textSize="@dimen/text_size_medium"/>
+
+    <ImageButton
+        android:id="@+id/add"
+        android:layout_width="@dimen/text_size_medium"
+        android:layout_height="@dimen/text_size_medium"
+        android:layout_margin="@dimen/icon_margin"
+        android:src="@drawable/baseline_control_point_black_18dp"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">mini_resume</string>
+    <string name="name_hint">your name</string>
+
+    <string name="profile_title">PROFILE</string>
+    <string name="education_title">EDUCATION</string>
+    <string name="experience_title">EXPERIENCE</string>
+    <string name="project_title">PROJECT</string>
+    <string name="skill_title">SKILL</string>
+
+    <string name="school_name_hint">RPI</string>
+    <string name="major_name_hint">major name</string>
+    <string name="date_hint">**** - ****</string>
+    <string name="gpa_hint">GPA: 3.7</string>
+
+    <string name="project_url">view project</string>
+
+    <string name="summary_edit_name">your name</string>
+    <string name="summary_edit_email">email</string>
+    <string name="summary_edit_phone_num">phone number</string>
+
+    <string name="project_edit_name">project name</string>
+    <string name="project_edit_start_date">start date</string>
+    <string name="project_edit_end_date">end date</string>
+    <string name="project_edit_description">project description</string>
+    <string name="project_edit_url">project url</string>
+
+    <string name="education_edit_name">school name</string>
+    <string name="education_edit_major">major field of study</string>
+    <string name="education_edit_description">Description</string>
+    <string name="education_edit_gpa">GPA</string>
+
+    <string name="experience_edit_name">company name</string>
+    <string name="experience_edit_work_title">work title</string>
+    <string name="experience_edit_description">Description</string>
+    <string name="experience_edit_gpa">GPA</string>
+
+    <string name="save_menus_button_title">save</string>
+
+    <string name="delete_dialog_positive_button">Delete</string>
+    <string name="delete_dialog_negative_button">Cancel</string>
+
+    <string name="delete_dialog_msg">Do you really want ot delete this record !!</string>
+
+</resources>
