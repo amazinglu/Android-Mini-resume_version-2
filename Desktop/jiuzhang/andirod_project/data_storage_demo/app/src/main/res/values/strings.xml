@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">data_storage_demo</string>
+    <string name="hint_text_internal_storage">text save in internal storage</string>
+    <string name="save_text">save text</string>
+    <string name="hint_cache_internal_storage">save cache in internal storage</string>
+    <string name="save_cache">save cache</string>
+    <string name="save_public">save to public external storage</string>
+    <string name="save_private">save to private external storage</string>
+</resources>

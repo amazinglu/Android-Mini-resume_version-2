@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">In_App_Search_demo</string>
+    <string name="search_hint">amazing</string>
+    <string name="search_button_title">search_button</string>
+</resources>
