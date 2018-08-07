@@ -1,0 +1,185 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        TestSign {
+            storeFile file('/Users/williamsnyder/development/parabit/demoapp/android/ParabeaconDemo/demo.jks')
+            keyAlias 'demo'
+            keyPassword 'parabit'
+            storePassword 'parabit'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    def versionPropsFile = file('version.properties')
+    def versionBuild
+    /*Setting default value for versionBuild which is the last incremented value stored in the file */
+    if (versionPropsFile.canRead()) {
+        def Properties versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionPropsFile))
+        versionBuild = versionProps['VERSION_BUILD'].toInteger()
+    } else {
+        throw new GradleException("Could not read version.properties!")
+    }
+    /*Runs only when we build apk*/
+    ext.autoIncrementBuildNumber = {
+
+        if (versionPropsFile.canRead()) {
+            def Properties versionProps = new Properties()
+            versionProps.load(new FileInputStream(versionPropsFile))
+            versionBuild = versionProps['VERSION_BUILD'].toInteger() + 1
+            versionProps['VERSION_BUILD'] = versionBuild.toString()
+            versionProps.store(versionPropsFile.newWriter(), null)
+        } else {
+            throw new GradleException("Could not read version.properties!")
+        }
+    }
+    defaultConfig {
+        applicationId "com.parabit.parabeacon.app.demo"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode versionBuild
+        versionName "1.0.0." + versionBuild
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                MMRBT_APP_ID: "8a24b812-479e-4c4f-ad57-b0b3d15b4ed8",
+                MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+        ]
+    }
+    gradle.taskGraph.whenReady { taskGraph ->
+        autoIncrementBuildNumber()
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "string", "app_name", "MMR SDK Demo"
+            resValue "string", "title_activity_home", "MMR SDK Demo"
+            resValue "string", "nav_header_title", "MMR SDK Demo"
+            resValue 'string', 'local_rabbit_url', '"amqp://guest:guest@192.168.7.23:5672"'
+            manifestPlaceholders = [
+                    HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                    MMRBT_APP_ID: "8a24b812-479e-4c4f-ad57-b0b3d15b4ed8",
+                    iconpath:"@mipmap/shape",
+                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+
+        }
+        show {
+            initWith debug
+            resValue "string", "app_name", "MMR Show App"
+            resValue "string", "title_activity_home", "MMR Show App"
+            resValue "string", "nav_header_title", "MMR Show App"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [MMRBT_APP_ID:"04b2daa0-2120-4e13-bdc7-e8d99dbc8dc0",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            applicationIdSuffix ".debugShow"
+        }
+        showRelease {
+            initWith release
+            resValue "string", "app_name", "MMR Show App"
+            resValue "string", "title_activity_home", "MMR Show App"
+            resValue "string", "nav_header_title", "MMR Show App"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [MMRBT_APP_ID:"04b2daa0-2120-4e13-bdc7-e8d99dbc8dc0",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            applicationIdSuffix ".releaseShow"
+        }
+        releaseDebug {
+            initWith release
+            resValue "string", "app_name", "MMR SDK Demo"
+            resValue "string", "title_activity_home", "MMR SDK Demo"
+            resValue "string", "nav_header_title", "MMR SDK Demo"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                                    MMRBT_APP_ID: "1f3b490c-b5cc-4748-93c6-0bbb4599c602",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            debuggable true
+            applicationIdSuffix ".debugRelease"
+            signingConfig signingConfigs.TestSign
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "string", "app_name", "MMR SDK Demo"
+            resValue "string", "title_activity_home", "MMR SDK Demo"
+            resValue "string", "nav_header_title", "MMR SDK Demo"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                                    MMRBT_APP_ID: "04b2daa0-2120-4e13-bdc7-e8d99dbc8dc0",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            debuggable false
+        }
+        chaseDebug {
+            initWith release
+            resValue "string", "app_name", "Chase MMR Demo"
+            resValue "string", "title_activity_home", "Chase MMR Demo"
+            resValue "string", "nav_header_title", "Chase MMR Demo"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                                    MMRBT_APP_ID: "1f3b490c-b5cc-4748-93c6-0bbb4599c602",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            debuggable true
+            applicationIdSuffix ".debugRelease"
+            signingConfig signingConfigs.TestSign
+        }
+        chaseRelease {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "string", "app_name", "Chase MMR Demo"
+            resValue "string", "title_activity_home", "Chase MMR Demo"
+            resValue "string", "nav_header_title", "Chase MMR Demo"
+            resValue 'string', 'local_rabbit_url', '"amqp://admin:password@192.168.1.10:5672"'
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "5bc7134aea3e4fd093c4bd2413287616",
+                                    MMRBT_APP_ID: "1f3b490c-b5cc-4748-93c6-0bbb4599c602",
+                                    iconpath:"@mipmap/shape",
+                                    MMRBT_POST_LOGIN_ACTIVITY: "com.parabit.parabeacon.app.demo.layout.HomeActivity"
+            ]
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'org.altbeacon:android-beacon-library:2+'
+    implementation 'net.hockeyapp.android:HockeySDK:5.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.dinuscxj:circleprogressbar:1.1.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.github.cheergoivan:totp-authenticator:1.0'
+    implementation 'com.rabbitmq:amqp-client:4.5.0'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.github.tony19:logback-android:1.1.1-11'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:6.1.1'
+    implementation('io.logz.logback:logzio-logback-appender:1.0.17') {
+        exclude group: 'io.logz.sender'
+        exclude module: 'logzio-sender'
+    }
+    implementation 'junit:junit:4.12'
+    implementation project(':mmrbtapi')
+    implementation project(':mmrlogin')
+
+}

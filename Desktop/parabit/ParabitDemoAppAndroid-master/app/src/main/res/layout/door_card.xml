@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/doorCard"
+        android:layout_width="300dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/txt_door_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Main Entrance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse" />
+
+                <TextView
+                    android:id="@+id/txt_door_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_door_name"
+                    android:layout_alignStart="@+id/txt_door_name"
+                    android:text="North Door"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+                <ImageView
+                    android:id="@+id/img_lock_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:tint="@android:color/background_light"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+                <ProgressBar
+                    android:id="@+id/progress_unlock"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:indeterminate="false"
+                    android:indeterminateDrawable="@drawable/indeterminate_circular"
+                    android:indeterminateTint="@color/white"
+                    android:indeterminateTintMode="src_in"
+                    android:progress="80"
+                    android:progressDrawable="@drawable/circular"
+                    android:progressTint="@color/white"
+                    android:progressTintMode="src_in" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignParentBottom="true"
+                android:background="#ffffff">
+
+                <Button
+                    android:id="@+id/btn_unlock"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/remote_door_unlock" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            app:itemBackground="@color/colorFontSecondary"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            app:itemBackground="@color/colorFontSecondary"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            app:itemBackground="@color/colorFontSecondary"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Advanced"
+        android:id="@+id/menu_advanced">
+        <menu>
+            <item
+                android:id="@+id/nav_diagnostics"
+                android:icon="@drawable/ic_settings_black_24dp"
+                app:itemBackground="@color/colorFontSecondary"
+                android:title="Diagnostics" />
+        </menu>
+    </item>
+
+</menu>

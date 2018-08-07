@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.parabit.parabeacon.app.demo">
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.nfc.hce"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".MMRDemoApplication"
+        android:allowBackup="true"
+        android:icon="${iconpath}"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/shape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="net.hockeyapp.android.appIdentifier"
+            android:value="${HOCKEYAPP_APP_ID}" />
+        <meta-data
+            android:name="com.parabit.mmrbtsdk.appIdentifier"
+            android:value="${MMRBT_APP_ID}" />
+        <meta-data
+            android:name="com.parabit.mmrbtsdk.trayIcon"
+            android:resource="@drawable/ic_info_outline_black_24dp" />
+        <meta-data
+            android:name="com.parabit.mmrlogin.postLoginActivity"
+            android:value="${MMRBT_POST_LOGIN_ACTIVITY}" />
+        <activity
+            android:name=".layout.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".layout.HomeActivity"
+            android:label="@string/title_activity_home"></activity>
+        <activity
+            android:name=".layout.DiagnosticActivity"
+            android:label="@string/title_activity_diagnostic"></activity>
+        <activity
+            android:name=".layout.SettingsActivity"
+            android:label="@string/title_app_settings"></activity>
+        <activity
+            android:name=".layout.DoorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_door"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".layout.HomeActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.parabit.parabeacon.app.demo.layout.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

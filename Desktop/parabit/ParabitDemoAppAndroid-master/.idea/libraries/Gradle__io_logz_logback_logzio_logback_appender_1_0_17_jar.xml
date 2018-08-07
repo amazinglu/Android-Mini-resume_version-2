@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.logz.logback:logzio-logback-appender:1.0.17@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.logz.logback/logzio-logback-appender/1.0.17/2abbe453a12582d2e247ff549ce97f374cb01fcd/logzio-logback-appender-1.0.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.logz.logback/logzio-logback-appender/1.0.17/954ae638dde029976dcaa1b08a50bd3e706c8ff5/logzio-logback-appender-1.0.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

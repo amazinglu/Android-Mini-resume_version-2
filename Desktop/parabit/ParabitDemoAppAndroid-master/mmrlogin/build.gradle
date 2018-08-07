@@ -1,0 +1,93 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_x7DbaNO9e"'
+            resValue 'string', 'auth_cognito_app_id', '"4av5nbdtdmvlb0an3r5mjnoekf"'
+            resValue 'string', 'auth_cognito_app_secret', '"52dm0r5k2g2rmm6s401ato7ltni4rara4isl1p4qhm4keqq594e"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/dev-log/"'
+            resValue 'string', 'parabit_log_key', '"RAsebxU43mDXjin8wyje41F066vbnrg1PZrcsKk5"'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_FuLhTJM6N"'
+            resValue 'string', 'auth_cognito_app_id', '"7udrug812mcut3o4ot2h5dkphi"'
+            resValue 'string', 'auth_cognito_app_secret', '"10c7m9jlk57pivavvap97p45dgb5tubrap5i1uglu5oohqk5lo1d"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/test-log/"'
+            resValue 'string', 'parabit_log_key', '"M0mgOUiwlnaJ9zbHOgF0u9tpk0eqJPJ7Ju6XAIic"'
+        }
+        releaseDebug {
+            initWith release
+        }
+        show {
+            initWith debug
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_FuLhTJM6N"'
+            resValue 'string', 'auth_cognito_app_id', '"7udrug812mcut3o4ot2h5dkphi"'
+            resValue 'string', 'auth_cognito_app_secret', '"10c7m9jlk57pivavvap97p45dgb5tubrap5i1uglu5oohqk5lo1d"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/test-log/"'
+            resValue 'string', 'parabit_log_key', '"M0mgOUiwlnaJ9zbHOgF0u9tpk0eqJPJ7Ju6XAIic"'
+        }
+        showRelease {
+            initWith release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_FuLhTJM6N"'
+            resValue 'string', 'auth_cognito_app_id', '"7udrug812mcut3o4ot2h5dkphi"'
+            resValue 'string', 'auth_cognito_app_secret', '"10c7m9jlk57pivavvap97p45dgb5tubrap5i1uglu5oohqk5lo1d"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/test-log/"'
+            resValue 'string', 'parabit_log_key', '"M0mgOUiwlnaJ9zbHOgF0u9tpk0eqJPJ7Ju6XAIic"'
+        }
+        chaseDebug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_x7DbaNO9e"'
+            resValue 'string', 'auth_cognito_app_id', '"4av5nbdtdmvlb0an3r5mjnoekf"'
+            resValue 'string', 'auth_cognito_app_secret', '"52dm0r5k2g2rmm6s401ato7ltni4rara4isl1p4qhm4keqq594e"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/dev-log/"'
+            resValue 'string', 'parabit_log_key', '"RAsebxU43mDXjin8wyje41F066vbnrg1PZrcsKk5"'
+        }
+        chaseRelease {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_cognito_pool_id', '"us-east-1_FuLhTJM6N"'
+            resValue 'string', 'auth_cognito_app_id', '"7udrug812mcut3o4ot2h5dkphi"'
+            resValue 'string', 'auth_cognito_app_secret', '"10c7m9jlk57pivavvap97p45dgb5tubrap5i1uglu5oohqk5lo1d"'
+            resValue 'string', 'parabit_log_api', '"https://api.parabit.com/test-log/"'
+            resValue 'string', 'parabit_log_key', '"M0mgOUiwlnaJ9zbHOgF0u9tpk0eqJPJ7Ju6XAIic"'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+
+    implementation 'com.amazonaws:aws-android-sdk-core:2.2.+'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.3.8'
+    implementation 'com.amazonaws:aws-android-sdk-cognitoauth:2.4.7@aar'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

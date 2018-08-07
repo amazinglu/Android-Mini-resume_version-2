@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- NFC Emulation-->
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+    <string name="service_name">Emulation Service</string>
+    <string name="card_title">DTU</string>
+    <string name="large_payload">"IEEE DTU Orientation</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_login">Login</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_activity_diagnostic">Diagnostics</string>
+    <string name="title_home">Home</string>
+    <string name="title_door">Nearby</string>
+    <string name="subtitle_door">Accessible doors will appear in this list</string>
+    <string name="title_find_atm">Find Branch/ATM</string>
+    <string name="subtitle_find_atm">Find a local branch or ATM</string>
+    <string name="title_about">About</string>
+    <string name="subtitle_about">Information about the Parabit Demo App</string>
+    <string name="title_emergency">Emergency Contacts</string>
+    <string name="title_emergency_short">Emergency</string>
+    <string name="subtitle_emergency"></string>
+    <string name="title_app_settings">Settings</string>
+    <string name="subtitle_app_settings">Configure door access</string>
+    <string name="title_activity_door">Door Activation</string>
+    <string name="dummy_button">Unlock Door</string>
+    <string name="dummy_content">Door Unlock\nInstructions</string>
+    <string name="title_profile">Profile</string>
+    <string name="nav_header_subtitle">demo@parabit.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remote_door_unlock">Remote Door Unlock</string>
+
+</resources>

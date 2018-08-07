@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.cheergoivan:totp-authenticator:1.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.cheergoivan/totp-authenticator/1.0/fe52d21837f86f8d90fd86cf2436b223d4b55e11/totp-authenticator-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.cheergoivan/totp-authenticator/1.0/db694d4e7a8831d77363ce9e8e9be1a9d8c87084/totp-authenticator-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

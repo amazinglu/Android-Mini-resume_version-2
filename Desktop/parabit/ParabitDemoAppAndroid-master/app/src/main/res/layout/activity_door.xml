@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.parabit.parabeacon.app.demo.layout.DoorActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fullscreen_content"
+                android:layout_width="wrap_content"
+                android:layout_height="417dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/door_scan_instructions" />
+
+            <Button
+                android:id="@+id/btn_unlock_remote"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Remote Door Unlock" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <CheckBox
+                android:id="@+id/chkDoorAck"
+                style="@android:style/Widget.Material.Light.CompoundButton.CheckBox"
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_weight="1.67"
+                android:buttonTint="@android:color/white"
+                android:text="Don't show this again"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

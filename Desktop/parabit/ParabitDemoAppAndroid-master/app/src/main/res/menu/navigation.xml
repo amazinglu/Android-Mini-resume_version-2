@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_door"
+        android:icon="@drawable/ic_location_nearby_black_24dp"
+        android:title="@string/title_door" />
+
+    <item
+        android:id="@+id/navigation_find_atm_bank"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/title_find_atm" />
+
+    <item
+        android:id="@+id/navigation_emergency"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_emergency_short" />
+
+</menu>

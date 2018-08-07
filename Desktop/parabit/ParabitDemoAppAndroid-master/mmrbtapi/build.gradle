@@ -1,0 +1,97 @@
+apply plugin: 'com.android.library'
+
+android {
+    signingConfigs {
+        TestSign {
+            keyAlias 'demo'
+            keyPassword 'parabit'
+            storeFile file('/Users/williamsnyder/development/parabit/demoapp/android/ParabeaconDemo/demo.jks')
+            storePassword 'parabit'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/dev-company/"'
+            resValue 'string', 'auth_api_key', '"1lzIEosrdsaKsojxzyvwc5ddxth1Tbuh8J4HrBdK"'
+        }
+        show {
+            initWith debug
+            manifestPlaceholders = [hostName:"internal.example.com"]
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/test-company/"'
+            resValue 'string', 'auth_api_key', '"xf40KjIrRZ5eqFs4S13yHarTFw9x39d064sx8R19"'
+        }
+        showRelease {
+            initWith release
+            manifestPlaceholders = [hostName:"internal.example.com"]
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/test-company/"'
+            resValue 'string', 'auth_api_key', '"xf40KjIrRZ5eqFs4S13yHarTFw9x39d064sx8R19"'
+        }
+        releaseDebug {
+            initWith release
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/v1-company/"'
+            resValue 'string', 'auth_api_key', '"gMDJoiWVeF4VZMHr96bd2aBkmWAhpzdF4Sr04Zzo"'
+        }
+        release {
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/v1-company/"'
+            resValue 'string', 'auth_api_key', '"gMDJoiWVeF4VZMHr96bd2aBkmWAhpzdF4Sr04Zzo"'
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
+        }
+        chaseDebug {
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/v1-company/"'
+            resValue 'string', 'auth_api_key', '"gMDJoiWVeF4VZMHr96bd2aBkmWAhpzdF4Sr04Zzo"'
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
+        }
+        chaseRelease {
+            resValue 'string', 'auth_api_url', '"https://api.parabit.com/v1-company/"'
+            resValue 'string', 'auth_api_key', '"gMDJoiWVeF4VZMHr96bd2aBkmWAhpzdF4Sr04Zzo"'
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'org.altbeacon:android-beacon-library:2+'
+    implementation 'com.github.cheergoivan:totp-authenticator:1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
