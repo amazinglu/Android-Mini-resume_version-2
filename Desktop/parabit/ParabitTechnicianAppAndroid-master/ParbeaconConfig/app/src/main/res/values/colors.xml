@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a4a4a</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorPrimaryLight">#f57b20</color>
+    <color name="colorAccent">#005394</color>
+    <color name="colorFontSecondary">#a3a3a3</color>
+    <color name="design_textinput_error_color_light">#a3a3a3</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#d92020</color>
+    <color name="gray_line">#c4c4c4</color>
+    <color name="white">#ffffff</color>
+    <color name="textColorPrimary">#f1707070</color>
+</resources>
