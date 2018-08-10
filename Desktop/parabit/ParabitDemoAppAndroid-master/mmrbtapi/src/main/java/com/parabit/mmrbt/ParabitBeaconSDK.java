@@ -6,6 +6,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.github.cheergoivan.totp.TOTPAuthenticator;
 import com.parabit.mmrbt.api.AuthenticationRequest;
@@ -294,6 +295,9 @@ public class ParabitBeaconSDK {
         });
     }
 
+    /**
+     * get the info of the door base on the serial_number of the beacon
+     * */
     private void doGetInfo(int serialNumber, BeaconInfoHandler beaconInfoHandler) {
         if (getParabitBeaconManager() == null) {
             return;
@@ -334,6 +338,11 @@ public class ParabitBeaconSDK {
         /**
          * post body:
          * token, serialNumber, DeviceId, doorOpenTime
+         *
+         * seem this is only a fake door, the response is null at the moment
+         * TODO: ask about the status of the unlock request
+         *
+         * the totpToken is generate by the PARABIT_ID_TOKEN
          * */
         String totpToken = totpAuthenticator.generateTOTP(secret.getBytes());
         unlockCommand.setToken(totpToken);
@@ -349,6 +358,7 @@ public class ParabitBeaconSDK {
                     unlockHandler.onResult(result.isUnlocked());
                     return;
                 }
+
                 unlockHandler.onError("Unable to unlock the door");
             }
 

@@ -234,7 +234,8 @@ public class DoorFragment extends BaseDemoFragment {
             anim.setRepeatCount(ValueAnimator.INFINITE);
             anim.start();
 
-            String serialNumber = "123456";
+            String serialNumber = door.getSerialNumber();
+//            String serialNumber = "123456";
 
             progressBar.setVisibility(View.VISIBLE);
             progressBar.setIndeterminate(true);

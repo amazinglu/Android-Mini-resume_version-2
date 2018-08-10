@@ -61,6 +61,10 @@ public class EmergencyContactFragment extends BaseDemoFragment {
         });
     }
 
+    /**
+     * at the moment, the contact hard-coded in the xml file
+     * maybe in the future, the contact will be loaded base on the location or something else
+     * */
     private void refreshContacts() {
         AppState currentState = getCurrentState();
         if (currentState == null) {
