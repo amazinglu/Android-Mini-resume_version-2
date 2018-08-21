@@ -281,11 +281,19 @@ public class DoorFragment extends BaseDemoFragment {
             ParabitBeaconSDK.unlock(serialNumber, duration, new UnlockHandler() {
                 @Override
                 public void onResult(boolean unlocked) {
+                    // TODO log: unlock the door
+                    /**
+                     * send: totpToken, serialNumber, DeviceId, doorOpenTime
+                     * response: true (able to unlock) false (unable to unlock) || null response body
+                     * get door info: yes
+                     * duration: yes
+                     * */
                     updateDoorStatus(unlocked);
                 }
 
                 @Override
                 public void onError(String s) {
+                    // TODO log: server fail to response about the door unlock request
                     log().error("Unable to unlock door:"+ s);
                     updateDoorStatus(false);
                 }

@@ -5,6 +5,9 @@ package com.parabit.mmrbt.api;
  */
 
 public interface RegistrationHandler {
+
+    // TODO log: add onAuth, on AuthError and registerError function
+
     void onRegistered();
 
     void onError(String s);

@@ -262,7 +262,7 @@ public class LoginActivity extends BaseDemoActivity {
             // TODO: attempt authentication against a network service.
 
             try {
-                // Simulate network access.
+                // Simulate network access. no a really network request
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 return false;

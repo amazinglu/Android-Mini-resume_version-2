@@ -339,9 +339,6 @@ public class ParabitBeaconSDK {
          * post body:
          * token, serialNumber, DeviceId, doorOpenTime
          *
-         * seem this is only a fake door, the response is null at the moment
-         * TODO: ask about the status of the unlock request
-         *
          * the totpToken is generate by the PARABIT_ID_TOKEN
          * */
         String totpToken = totpAuthenticator.generateTOTP(secret.getBytes());

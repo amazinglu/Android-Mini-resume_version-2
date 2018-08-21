@@ -259,6 +259,14 @@ public class MMRDemoApplication extends ParabitBeaconApplication
 
         log().debug("Beacon detected ("+serialNumber+")");
 
+        // TODO: log: the beacon is detected via bluetooth
+        /**
+         * send: null
+         * response: serial number
+         * can get door info: no
+         * duration: no
+         * */
+
         if (appStateManager.currentState().isDemoMode()) {
             BeaconInfo beaconInfo = getParabitBeacon(serialNumber);
             postNotifications(beaconInfo);
@@ -268,6 +276,13 @@ public class MMRDemoApplication extends ParabitBeaconApplication
         ParabitBeaconSDK.getBeaconInfo(serialNumber, new BeaconInfoHandler() {
             @Override
             public void onResult(BeaconInfo beaconInfo) {
+                // TODO log: get back the beacon info base on the serial number
+                /**
+                 * send: serial number
+                 * response: serial number, door name, location, id || response is null
+                 * can get door info: yes
+                 * duration: yes
+                 * */
                 if (beaconInfo == null) {
                     Map<String, String> properties = new HashMap<>();
                     properties.put("SERIAL_NUMBER", Integer.toString(serialNumber));
@@ -290,6 +305,13 @@ public class MMRDemoApplication extends ParabitBeaconApplication
 
             @Override
             public void onError(String s) {
+                // TODO log: the server fail to return beacon info
+                /**
+                 * send: serial number
+                 * response: fail to get beacon info
+                 * can get door info: no
+                 * duration: yes
+                 * */
                 Map<String, String> properties = new HashMap<>();
                 properties.put("MESSAGE", s);
                 MetricsManager.trackEvent("BEACONS_NOT_FOUND", properties);
@@ -303,6 +325,13 @@ public class MMRDemoApplication extends ParabitBeaconApplication
      * */
     @Override
     public void didExitBeaconRegion(int serialNumber) {
+        // TODO log: beacon exist region
+        /**
+         * send: null
+         * response: serial number
+         * can get door info: yes
+         * duration: no
+         * */
         appStateManager.currentState().removeAvailableDoor(Integer.toString(serialNumber));
         appStateManager.update(appStateManager.currentState());
     }
@@ -312,12 +341,32 @@ public class MMRDemoApplication extends ParabitBeaconApplication
      * */
     @Override
     public void onRegistered() {
+
+        // TODO log: get authentication
+        /**
+         * send: appId
+         * response: beaconId, beaconUrl, controlId, controlUrl, locationKey, locationUrl
+         * can get door info: no
+         * duration: yes
+         * */
+
+        // TODO log: register
+        /**
+         * send: null
+         * response: token, DiviceID || repsonse body is null
+         * can get door info: no
+         * duration: yes
+         * */
+
         MetricsManager.trackEvent("APP_REGISTERED");
         log().debug("App registered");
     }
 
     @Override
     public void onError(String s) {
+
+        // TODO log: auth or register error
+
         Map<String, String> properties = new HashMap<>();
         properties.put("MESSAGE", s);
         MetricsManager.trackEvent("REGISTRATION_ERROR", properties);
