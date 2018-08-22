@@ -1,6 +1,8 @@
 package com.parabit.parabeacon.app.demo.layout;
 
 import android.app.Application;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
 import com.parabit.parabeacon.app.demo.manager.AppLogManager;
@@ -13,6 +15,12 @@ import org.slf4j.Logger;
  */
 
 public class BaseDemoFragment  extends Fragment {
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
 
     public AppState getCurrentState() {
         if (getActivity() instanceof BaseDemoActivity) {
