@@ -51,5 +51,19 @@
     <string name="beacon_button_text">Beacons</string>
     <string name="test_unlock_via_rabbit_button_text">Test unlock Via Rabbit Button</string>
     <string name="clear_log_text">clear log</string>
+    <string name="smg_title">Msg_title:</string>
+    <string name="smg_type">Msg Type:</string>
+    <string name="is_msg_send">Is Msg Send:</string>
+    <string name="is_msg_receive">Is Msg Receive:</string>
+    <string name="msg_success">Success Msg</string>
+    <string name="msg_error">Error Msg</string>
+    <string name="msg_door_belong">Door Belong:</string>
+    <string name="msg_date">Msg_data:</string>
+    <string name="msg_round_trip">Round Trip Time:</string>
+    <string name="beacon_id">Beacon Id:</string>
+    <string name="door_name">Door Name:</string>
+    <string name="beacon_serial_number">Serial Number:</string>
+    <string name="beacon_location">Beacon Location:</string>
+    <string name="beacon_date">Beacon Date:</string>
 
 </resources>

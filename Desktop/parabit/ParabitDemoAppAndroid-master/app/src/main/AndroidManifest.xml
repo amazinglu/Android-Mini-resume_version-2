@@ -67,6 +67,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.parabit.parabeacon.app.demo.layout.HomeActivity" />
         </activity>
+
+        <activity android:name=".diagnotics.DiagnoseActivity"/>
+        <activity android:name=".diagnotics.DiagnoseDetailActivity"/>
     </application>
 
 </manifest>

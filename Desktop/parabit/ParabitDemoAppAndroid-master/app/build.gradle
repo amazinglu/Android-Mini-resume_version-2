@@ -172,6 +172,10 @@ dependencies {
     implementation 'com.github.cheergoivan:totp-authenticator:1.0'
     implementation 'com.rabbitmq:amqp-client:4.5.0'
     implementation 'org.slf4j:slf4j-api:1.7.25'
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
     implementation 'com.github.tony19:logback-android:1.1.1-11'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:6.1.1'
     implementation('io.logz.logback:logzio-logback-appender:1.0.17') {
@@ -181,8 +185,5 @@ dependencies {
     implementation 'junit:junit:4.12'
     implementation project(':mmrbtapi')
     implementation project(':mmrlogin')
-
-    implementation 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
 }

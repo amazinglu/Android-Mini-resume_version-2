@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.parabit.parabeacon.app.demo.R;
+import com.parabit.parabeacon.app.demo.diagnotics.DiagnoseActivity;
 import com.parabit.parabeacon.app.demo.log.AppLogAppender;
 import com.parabit.parabeacon.app.demo.log.AppLogListener;
 
@@ -307,10 +308,12 @@ public class HomeActivity extends BaseDemoActivity implements NavigationView.OnN
     }
 
     private void showDiagnosticActivity() {
-        Intent diagnosticIntent =
-                new Intent(this, DiagnosticActivity.class);
-
-        startActivity(diagnosticIntent);
+//        Intent diagnosticIntent =
+//                new Intent(this, DiagnosticActivity.class);
+//
+//        startActivity(diagnosticIntent);
+        Intent intent = new Intent(this, DiagnoseActivity.class);
+        startActivity(intent);
     }
 
     private void showSettingsActivity() {
