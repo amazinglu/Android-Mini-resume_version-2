@@ -39,54 +39,169 @@
       <file leaf-file-name="MMRDemoApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
+            <state relative-caret-position="-43">
+              <caret line="361" selection-start-line="361" selection-end-line="361" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8494#8495#0" expanded="true" />
-                <element signature="e#8542#8543#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoorFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DoorFragment.java">
+      <file leaf-file-name="item_diagnostics_msg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_diagnostics_msg.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="276" column="12" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="50" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="50" />
+              <folding>
+                <element signature="e#519#550#0" expanded="true" />
+                <element signature="e#586#617#0" expanded="true" />
+                <element signature="e#651#680#0" expanded="true" />
+                <element signature="e#717#746#0" expanded="true" />
+                <element signature="e#768#797#0" expanded="true" />
+                <element signature="e#978#1009#0" expanded="true" />
+                <element signature="e#1045#1076#0" expanded="true" />
+                <element signature="e#1110#1139#0" expanded="true" />
+                <element signature="e#1176#1205#0" expanded="true" />
+                <element signature="e#1434#1465#0" expanded="true" />
+                <element signature="e#1501#1532#0" expanded="true" />
+                <element signature="e#1566#1595#0" expanded="true" />
+                <element signature="e#1632#1661#0" expanded="true" />
+                <element signature="e#1881#1912#0" expanded="true" />
+                <element signature="e#1948#1979#0" expanded="true" />
+                <element signature="e#2013#2042#0" expanded="true" />
+                <element signature="e#2079#2108#0" expanded="true" />
+                <element signature="e#2334#2365#0" expanded="true" />
+                <element signature="e#2401#2432#0" expanded="true" />
+                <element signature="e#2466#2495#0" expanded="true" />
+                <element signature="e#2532#2561#0" expanded="true" />
+                <element signature="e#2809#2840#0" expanded="true" />
+                <element signature="e#2876#2907#0" expanded="true" />
+                <element signature="e#2941#2970#0" expanded="true" />
+                <element signature="e#3007#3036#0" expanded="true" />
+                <element signature="e#3270#3301#0" expanded="true" />
+                <element signature="e#3337#3368#0" expanded="true" />
+                <element signature="e#3402#3431#0" expanded="true" />
+                <element signature="e#3468#3497#0" expanded="true" />
+                <element signature="e#3721#3752#0" expanded="true" />
+                <element signature="e#3788#3819#0" expanded="true" />
+                <element signature="e#3853#3882#0" expanded="true" />
+                <element signature="e#3919#3948#0" expanded="true" />
+                <element signature="e#4167#4198#0" expanded="true" />
+                <element signature="e#4234#4265#0" expanded="true" />
+                <element signature="e#4299#4328#0" expanded="true" />
+                <element signature="e#4365#4394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParabitBeaconSDK.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java">
+      <file leaf-file-name="fragment_diagnostics.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_diagnostics.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="339" column="54" selection-start-line="339" selection-start-column="18" selection-end-line="339" selection-end-column="54" />
+            <state relative-caret-position="385">
+              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <folding>
+                <element signature="e#395#426#0" expanded="true" />
+                <element signature="e#461#492#0" expanded="true" />
+                <element signature="e#526#555#0" expanded="true" />
+                <element signature="e#589#618#0" expanded="true" />
+                <element signature="e#685#710#0" expanded="true" />
+                <element signature="e#911#942#0" expanded="true" />
+                <element signature="e#977#1008#0" expanded="true" />
+                <element signature="e#1042#1071#0" expanded="true" />
+                <element signature="e#1105#1134#0" expanded="true" />
+                <element signature="e#1224#1252#0" expanded="true" />
+                <element signature="e#1448#1479#0" expanded="true" />
+                <element signature="e#1514#1545#0" expanded="true" />
+                <element signature="e#1579#1608#0" expanded="true" />
+                <element signature="e#1642#1671#0" expanded="true" />
+                <element signature="e#1764#1808#0" expanded="true" />
+                <element signature="e#2014#2045#0" expanded="true" />
+                <element signature="e#2080#2111#0" expanded="true" />
+                <element signature="e#2145#2174#0" expanded="true" />
+                <element signature="e#2208#2237#0" expanded="true" />
+                <element signature="e#2262#2283#0" expanded="true" />
+                <element signature="e#2418#2442#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/api/RegistrationHandler.java">
+      <file leaf-file-name="item_diagonstics_beacon.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_diagonstics_beacon.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="e#521#552#0" expanded="true" />
+                <element signature="e#588#619#0" expanded="true" />
+                <element signature="e#653#682#0" expanded="true" />
+                <element signature="e#719#748#0" expanded="true" />
+                <element signature="e#1001#1032#0" expanded="true" />
+                <element signature="e#1068#1099#0" expanded="true" />
+                <element signature="e#1133#1162#0" expanded="true" />
+                <element signature="e#1199#1228#0" expanded="true" />
+                <element signature="e#1490#1521#0" expanded="true" />
+                <element signature="e#1557#1588#0" expanded="true" />
+                <element signature="e#1622#1651#0" expanded="true" />
+                <element signature="e#1688#1717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeaconMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/BeaconMonitor.java">
+      <file leaf-file-name="DiagnosticActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DiagnosticActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="265">
+              <caret line="214" column="24" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-213" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -116,6 +231,9 @@
       <find>postNotifications</find>
       <find>sn</find>
       <find>registrationHandler</find>
+      <find>okHttp</find>
+      <find>handleClickDoor</find>
+      <find>unlockViaRabbit</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -9225,9 +9343,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/manager/AppLogManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/logback.xml" />
         <option value="$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/api/RegistrationHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java" />
         <option value="$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DoorFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java" />
+        <option value="$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitDoorManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DiagnosticActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_diagnostics.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_diagnostics_msg.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_diagonstics_beacon.xml" />
       </list>
     </option>
   </component>
@@ -9251,11 +9375,73 @@
             <path>
               <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="demo" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="mmrbtapi" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mmrbtapi" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mmrbtapi" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mmrbt" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mmrbtapi" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mmrbt" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ParabitDemoAppAndroid-master" type="1abcf292:AndroidViewProjectNode" />
@@ -9265,9 +9451,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -9449,6 +9635,7 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Preview" weight="0.3297568" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282123" />
@@ -9456,14 +9643,14 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25250357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25250357" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3282123" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -9478,18 +9665,83 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/api/RegistrationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/BeaconMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DoorFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3615">
+          <caret line="276" column="12" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4740">
+          <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4395">
+          <caret line="339" column="54" selection-start-line="339" selection-start-column="18" selection-end-line="339" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/api/RegistrationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/BeaconMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DoorFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3615">
+          <caret line="276" column="12" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
           <caret line="251" column="5" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8494#8495#0" expanded="true" />
-            <element signature="e#8542#8543#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -9498,9 +9750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9515,9 +9764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9525,9 +9771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9535,10 +9778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-          <folding>
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9587,28 +9826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DiagnosticActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#3663#3688#0" expanded="true" />
-            <element signature="e#4712#4859#0" expanded="true" />
-            <element signature="e#4858#4859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="174" column="63" lean-forward="true" selection-start-line="173" selection-start-column="4" selection-end-line="174" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -9637,17 +9854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="97" column="41" lean-forward="true" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
-          <folding>
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="218" column="28" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -9655,11 +9861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="41" column="23" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9674,16 +9875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/BeaconMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -9705,9 +9896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -9718,29 +9906,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.aar/6434fb5e76492a35a76bbe4d57746034/jars/classes.jar!/org/altbeacon/beacon/BeaconManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8494#8495#0" expanded="true" />
-            <element signature="e#8542#8543#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5910">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java">
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/BeaconMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="339" column="54" selection-start-line="339" selection-start-column="18" selection-end-line="339" selection-end-column="54" />
+        <state relative-caret-position="720">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/app/IntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.aar/6434fb5e76492a35a76bbe4d57746034/jars/classes.jar!/org/altbeacon/beacon/BeaconIntentProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.15.aar/6434fb5e76492a35a76bbe4d57746034/jars/classes.jar!/org/altbeacon/beacon/IntentHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeacon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitDoorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DoorFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="178">
           <caret line="276" column="12" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconSDK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/ParabitBeaconApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/MMRDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="361" selection-start-line="361" selection-end-line="361" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmrbtapi/src/main/java/com/parabit/mmrbt/api/DoorControlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parabit/parabeacon/app/demo/layout/DiagnosticActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="214" column="24" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_diagnostics.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#395#426#0" expanded="true" />
+            <element signature="e#461#492#0" expanded="true" />
+            <element signature="e#526#555#0" expanded="true" />
+            <element signature="e#589#618#0" expanded="true" />
+            <element signature="e#685#710#0" expanded="true" />
+            <element signature="e#911#942#0" expanded="true" />
+            <element signature="e#977#1008#0" expanded="true" />
+            <element signature="e#1042#1071#0" expanded="true" />
+            <element signature="e#1105#1134#0" expanded="true" />
+            <element signature="e#1224#1252#0" expanded="true" />
+            <element signature="e#1448#1479#0" expanded="true" />
+            <element signature="e#1514#1545#0" expanded="true" />
+            <element signature="e#1579#1608#0" expanded="true" />
+            <element signature="e#1642#1671#0" expanded="true" />
+            <element signature="e#1764#1808#0" expanded="true" />
+            <element signature="e#2014#2045#0" expanded="true" />
+            <element signature="e#2080#2111#0" expanded="true" />
+            <element signature="e#2145#2174#0" expanded="true" />
+            <element signature="e#2208#2237#0" expanded="true" />
+            <element signature="e#2262#2283#0" expanded="true" />
+            <element signature="e#2418#2442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_diagnostics_msg.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#519#550#0" expanded="true" />
+            <element signature="e#586#617#0" expanded="true" />
+            <element signature="e#651#680#0" expanded="true" />
+            <element signature="e#717#746#0" expanded="true" />
+            <element signature="e#768#797#0" expanded="true" />
+            <element signature="e#978#1009#0" expanded="true" />
+            <element signature="e#1045#1076#0" expanded="true" />
+            <element signature="e#1110#1139#0" expanded="true" />
+            <element signature="e#1176#1205#0" expanded="true" />
+            <element signature="e#1434#1465#0" expanded="true" />
+            <element signature="e#1501#1532#0" expanded="true" />
+            <element signature="e#1566#1595#0" expanded="true" />
+            <element signature="e#1632#1661#0" expanded="true" />
+            <element signature="e#1881#1912#0" expanded="true" />
+            <element signature="e#1948#1979#0" expanded="true" />
+            <element signature="e#2013#2042#0" expanded="true" />
+            <element signature="e#2079#2108#0" expanded="true" />
+            <element signature="e#2334#2365#0" expanded="true" />
+            <element signature="e#2401#2432#0" expanded="true" />
+            <element signature="e#2466#2495#0" expanded="true" />
+            <element signature="e#2532#2561#0" expanded="true" />
+            <element signature="e#2809#2840#0" expanded="true" />
+            <element signature="e#2876#2907#0" expanded="true" />
+            <element signature="e#2941#2970#0" expanded="true" />
+            <element signature="e#3007#3036#0" expanded="true" />
+            <element signature="e#3270#3301#0" expanded="true" />
+            <element signature="e#3337#3368#0" expanded="true" />
+            <element signature="e#3402#3431#0" expanded="true" />
+            <element signature="e#3468#3497#0" expanded="true" />
+            <element signature="e#3721#3752#0" expanded="true" />
+            <element signature="e#3788#3819#0" expanded="true" />
+            <element signature="e#3853#3882#0" expanded="true" />
+            <element signature="e#3919#3948#0" expanded="true" />
+            <element signature="e#4167#4198#0" expanded="true" />
+            <element signature="e#4234#4265#0" expanded="true" />
+            <element signature="e#4299#4328#0" expanded="true" />
+            <element signature="e#4365#4394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_diagonstics_beacon.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#521#552#0" expanded="true" />
+            <element signature="e#588#619#0" expanded="true" />
+            <element signature="e#653#682#0" expanded="true" />
+            <element signature="e#719#748#0" expanded="true" />
+            <element signature="e#1001#1032#0" expanded="true" />
+            <element signature="e#1068#1099#0" expanded="true" />
+            <element signature="e#1133#1162#0" expanded="true" />
+            <element signature="e#1199#1228#0" expanded="true" />
+            <element signature="e#1490#1521#0" expanded="true" />
+            <element signature="e#1557#1588#0" expanded="true" />
+            <element signature="e#1622#1651#0" expanded="true" />
+            <element signature="e#1688#1717#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

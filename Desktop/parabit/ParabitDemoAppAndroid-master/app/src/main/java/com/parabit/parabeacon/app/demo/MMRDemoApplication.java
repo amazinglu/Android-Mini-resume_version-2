@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.service.notification.StatusBarNotification;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.mapbox.mapboxsdk.Mapbox;

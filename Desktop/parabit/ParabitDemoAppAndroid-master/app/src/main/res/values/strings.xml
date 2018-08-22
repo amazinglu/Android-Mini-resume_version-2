@@ -46,5 +46,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="remote_door_unlock">Remote Door Unlock</string>
+    <string name="item_msg_title_text">Prototype Cells</string>
+    <string name="msg_button_text">Messages</string>
+    <string name="beacon_button_text">Beacons</string>
+    <string name="test_unlock_via_rabbit_button_text">Test unlock Via Rabbit Button</string>
+    <string name="clear_log_text">clear log</string>
 
 </resources>

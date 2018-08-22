@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_beacon_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Beacon id: fdb9e321-0481-458f-b617-dbbe813a1b0e"/>
+
+    <TextView
+        android:id="@+id/item_door_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Door Name: New Beacon for Ben"/>
+
+    <TextView
+        android:id="@+id/item_beacon_serial_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Serial Number: 167772170"/>
+
+    <TextView
+        android:id="@+id/item_beacon_in_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Is Beacon In region: true"/>
+
+    <TextView
+        android:id="@+id/item_beacon_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Location: Office"/>
+
+    <TextView
+        android:id="@+id/item_beacon_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Date of msg: today"/>
+
+
+</LinearLayout>

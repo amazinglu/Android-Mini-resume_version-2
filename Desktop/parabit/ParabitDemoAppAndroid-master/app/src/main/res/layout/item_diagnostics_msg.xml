@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_msg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        android:text="@string/item_msg_title_text"/>
+
+    <TextView
+        android:id="@+id/item_msg_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="msg type: auth request"/>
+    
+    <TextView
+        android:id="@+id/item_msg_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="msg send: true"/>
+
+    <TextView
+        android:id="@+id/item_msg_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="msg receive: true"/>
+
+    <TextView
+        android:id="@+id/item_successful_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="successful msg: successfully receive the msg"/>
+
+    <TextView
+        android:id="@+id/item_error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="error msg: some error msg"/>
+
+    <TextView
+        android:id="@+id/item_door_belong_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="door info: Ben door"/>
+
+    <TextView
+        android:id="@+id/item_round_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="round_trip: 100s"/>
+
+    <TextView
+        android:id="@+id/item_msg_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginBottom="@dimen/item_margin_vertical"
+        tools:text="Tues, May 1st, 2018"/>
+
+</LinearLayout>

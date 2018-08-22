@@ -74,6 +74,7 @@ public class ParabitDoorManager {
                         Request.Builder ongoing = chain.request().newBuilder();
                         ongoing.addHeader("Accept", "application/json");
                         ongoing.addHeader("x-api-key", getControlAPIToken());
+                        ongoing.addHeader("x-app-id", appId);
                         return chain.proceed(ongoing.build());
                     }
                 })

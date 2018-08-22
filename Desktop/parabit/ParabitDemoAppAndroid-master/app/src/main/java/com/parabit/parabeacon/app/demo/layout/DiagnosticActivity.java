@@ -211,6 +211,9 @@ public class DiagnosticActivity extends BaseDemoActivity {
 
     }
 
+    /**
+     * it is a fake test
+     * */
     private void unlockViaRabbit() {
 
         try {

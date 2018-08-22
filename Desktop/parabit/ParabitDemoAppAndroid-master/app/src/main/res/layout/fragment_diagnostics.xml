@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/fragment_diagnostics_msg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginEnd="@dimen/item_margin_vertical"
+        android:layout_alignParentTop="true"
+        android:text="@string/msg_button_text"/>
+
+    <Button
+        android:id="@+id/fragment_diagnostics_beacon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginEnd="@dimen/item_margin_vertical"
+        android:layout_below="@+id/fragment_diagnostics_msg_button"
+        android:text="@string/beacon_button_text"/>
+
+    <Button
+        android:id="@+id/test_unlock_via_rabbit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginEnd="@dimen/item_margin_vertical"
+        android:layout_below="@+id/fragment_diagnostics_beacon_button"
+        android:text="@string/test_unlock_via_rabbit_button_text"/>
+
+    <TextView
+        android:id="@+id/fragment_diagnostics_clear_log_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/item_margin_horizontal"
+        android:layout_marginLeft="@dimen/item_margin_horizontal"
+        android:layout_marginTop="@dimen/item_margin_vertical"
+        android:layout_marginEnd="@dimen/item_margin_vertical"
+        android:padding="@dimen/text_padding"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="@string/clear_log_text"/>
+
+</RelativeLayout>
